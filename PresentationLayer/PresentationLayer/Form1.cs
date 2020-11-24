@@ -40,7 +40,7 @@ namespace PresentationLayer
             r.Title = textBoxTitle.Text;
             r.Description = textBoxDescription.Text;
             r.Price = Convert.ToDecimal(textBoxPrice.Text);
-
+            Console.WriteLine("JA SAM CAR);
             bool result = this.buissness.InsertMenuItems(r);
 
             if(result)
