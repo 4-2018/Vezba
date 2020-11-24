@@ -18,7 +18,7 @@ namespace PresentationLayer
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Console.WriteLine(  "SCAEdasd");
+            Console.WriteLine(  "SCAEddasdasd");
         }
     }
 }
